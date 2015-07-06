@@ -1,7 +1,7 @@
 <?php
        require_once './controller/controller.php';
        
-	if(isset($_POST["nome"])){
+       if(isset($_POST["nome"])){
             $nome = $_POST["nome"];
             $senha = $_POST["senha"];
             $email = $_POST["email"];

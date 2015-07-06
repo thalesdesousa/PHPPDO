@@ -1,8 +1,8 @@
 <?php
-require_once './model/connection.php';
-       require './model/select.php';
-       require './model/insert.php';
-       $pdo = conectar();
+    require_once '../model/MyConstants.php';
+    use connection;
+
+    $pdo = new connection($host, $dbname, $dbuser, $dbpass);
 
 /* 
  * To change this license header, choose License Headers in Project Properties.
